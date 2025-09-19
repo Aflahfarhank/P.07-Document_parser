@@ -14,11 +14,3 @@ what to do?
 3. Then run the frontend "streamlit run app.py"
 4. After opening the frontend, you get a streamlit app. It will show a  sidebar and chatbot
 5. upload your docs and then click on "Process document" and then starting chatting with the model.
-
-
-My virtual Environment may seem to have lot of libraries
-Here I have used
-Streamlit
-Pandas
-Langchain
-PYpdf
