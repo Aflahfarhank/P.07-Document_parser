@@ -1,0 +1,16 @@
+P.07-DOCUMENT PARSER
+
+This is a pdf and excel files parser, where after processing the relevant docs that you upload, 
+the model will extract your docs and from the chat session, you can ask about your papers.
+
+For this project, I have used Langchain and Ollama as my main techniques for creating the chatbot
+and other modules like pypdf for extracting PDF file, pandas for extracting the excel file
+for the frontend, I have used streamlit to give a good UI experience.
+
+what to do?
+
+1. Create an ENV file and download the relevant libraries and add those into requirements.txt
+2. Select your ollama model(here i used llama2) and the pull the model "Ollama pull llama2"
+3. Then run the frontend "streamlit run app.py"
+4. After opening the frontend, you get a streamlit app. It will show a  sidebar and chatbot
+5. upload your docs and then click on "Process document" and then starting chatting with the model.
