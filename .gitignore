@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Build outputs
+dist/
+build/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Data and large files
+data/
+*.sqlite3
+*.db
+*.csv
+*.parquet
+
+# Model/vector stores
+*.faiss
+index.faiss
+index.pkl
+
+# Local config
+.env
+.env.*
+
+
