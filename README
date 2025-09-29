@@ -1,16 +1,45 @@
-P.07-DOCUMENT PARSER
+📄 P.07 – Document Parser
 
-This is a pdf and excel files parser, where after processing the relevant docs that you upload, 
-the model will extract your docs and from the chat session, you can ask about your papers.
+An AI-powered document parser and chatbot for PDF and Excel files.
+Upload your files, process them, and interact with their contents through a conversational interface.
 
-For this project, I have used Langchain and Ollama as my main techniques for creating the chatbot
-and other modules like pypdf for extracting PDF file, pandas for extracting the excel file
-for the frontend, I have used streamlit to give a good UI experience.
+✨ Features
 
-what to do?
+📑 Extract text from PDF files using pypdf
+📊 Parse and analyze Excel files with pandas
+🤖 Chat with your documents using LangChain + Ollama (LLaMA2)
+🎨 Clean and interactive Streamlit frontend with sidebar + chatbot UI
+⚡ Simple workflow: Upload → Process → Ask
 
-1. Create an ENV file and download the relevant libraries and add those into requirements.txt
-2. Select your ollama model(here i used llama2) and the pull the model "Ollama pull llama2"
-3. Then run the frontend "streamlit run app.py"
-4. After opening the frontend, you get a streamlit app. It will show a  sidebar and chatbot
-5. upload your docs and then click on "Process document" and then starting chatting with the model.
+🛠️ Tech Stack
+
+Backend AI: LangChain + Ollama (LLaMA2)
+PDF Parsing: pypdf
+Excel Parsing: pandas
+Frontend: Streamlit
+
+MODEL=llama2
+-Pull the Ollama model
+   ollama pull llama2
+-Run the frontend
+   streamlit run app.py
+
+🚀 Usage
+Launch the Streamlit app (link shown in terminal).
+Upload your PDF/Excel documents from the sidebar.
+Click Process Document.
+Start asking questions about your data!
+
+📌 Example Use Cases
+🔍 Search through research papers
+📊 Analyze Excel reports quickly
+📚 Summarize lengthy documents
+🧑‍💻 Build personal AI-powered knowledge assistants
+
+
+
+Open a Pull Request
+
+📜 License
+
+This project is licensed under the MIT License.
